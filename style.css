@@ -1,0 +1,244 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: sans-serif;
+
+    margin: 0;
+    padding: 0;
+
+    height: 100%;
+}
+
+.body-home{
+    background-image: url('images/InShot_20220112_043046533.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-meals{
+    background-image: url('images/InShot_20220112_042949112.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*========= HEADER ==========*/
+.header{
+    background-color:ghostwhite;
+    width: 100%;
+    height: 50px;
+    top: 0;
+
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+}
+
+.header i{
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color:goldenrod;
+}
+.header-img{
+    width: 150px;
+    padding-top: 14px;
+    padding-right: 25px;
+}
+
+/*========= HOMEPAGE =========*/
+#home-logo{
+    width: 159px;
+    display: block;
+    margin: auto;
+    padding:5px 30px 30px 30px;
+}
+
+/*========= HOME PAGE MENU =========*/
+
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: gainsboro;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid goldenrod;
+
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    width: 80%
+}
+
+/*========= MEALS PAGE =======*/
+#meals {
+    padding-top: 50px;
+}
+
+/*========== MEALS PAGE MENU ==========*/
+
+.meals-list a{
+    text-decoration: none;
+}
+
+.meals-list-item{
+    border: 5px solid goldenrod;
+    margin: 10px;
+}
+
+.meals-list-item h1{
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 18px;
+    color: burlywood;
+    padding-left: 10px;
+}
+
+.meals-list-item i{
+     float: right;
+     color: goldenrod;
+     padding-right: 20px;
+     margin-top: 5px;
+}
+/*======== MENU PAGE=======*/
+
+#menu{
+    padding-top: 50px;
+}
+
+/*============ MENU DETAILS ==========*/
+
+.menu-details img{
+            width: 100%;
+}
+
+.menu-details h1{
+
+    font-size: 20px;
+    text-align: center;
+    border: 5px solid burlywood;
+    margin: 10px;
+    padding: 5px;
+}
+
+.menu-details-info{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.menu-details-info h4{
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    Margin-left: 10px;
+}
+
+.menu-side-choice h2{
+    text-decoration: underline ;
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    Margin-left: 10px;
+}
+
+.menu-side-choice{
+    line-height: 27px;
+    margin-left: 15px;
+}  
+
+.button{
+    display:block;
+    margin: 20px;
+    padding: 10px;
+    width: 100px;
+    border: 100px;
+    outline: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 17px;
+    color: gainsboro;
+    background: linear-gradient( burlywood, goldenrod);
+
+}
+
+/*========= RESPONSIVE LAYOUT =========*/
+
+@media only screen and(win-width: 600px){
+    #meals{
+        width: 70%;
+        margin: auto;
+    }
+
+    #menu{
+        width: 70%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    #meals{
+        width: 50%;
+        margin: auto;
+    }
+
+    #menu{
+        width: 50%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1500px){
+    #meals{
+        width: 30%;
+        margin: auto;
+    }
+    #menu{
+        width: 30%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 710px){
+    .body-home{
+        background-image: url('images/InShot_20220112_043046533.jpg');
+    }
+
+    .body-meals{
+        background-image: url('images/InShot_20220112_042949112.jpg');
+    }
+}
+
+/*============ FORM ==========*/
+.menu-details-order input{
+    width: 99%;
+    height: 25px;
+    margin: 12px 0;
+    border: 1px solid #929292;
+}
+
+textarea{
+    width: 99%;
+    height: 65px;
+    margin: 12px 0;
+    border: 1px solid #929292;
+}
+
+.menu-details-order{
+
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+
+.menu-details-order img{
+    width: 100%;
+}
